@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" 
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="600px" height="500px" 
+        preserveAspectRatio="xMidYMid">
+
+    	<!-- Create a small animated scene that looks like a CSGO case opener  --> 
+
+  	<!-- Background is two light blue to dark blue gradients -->
+	<!-- A black bar going thru the middle, with empty squares on it -->
+	<!-- Squares animate from right to left, theres a red line on top in dead center -->
+
+	<!-- FOR BACKGROUND GRADIENTS
+	<!-- Top piece gradient -->
+  	<defs>
+    		<linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      			<stop offset="0%" style="stop-color:rgb(0,47,124);stop-opacity:1" />
+      			<stop offset="100%" style="stop-color:rgb(0,74,193);stop-opacity:1" />
+    		</linearGradient>
+  	</defs>
+	<!-- Bottom piece gradient -->
+	<defs>
+    		<linearGradient id="grad1" x1="0%" y1="100%" x2="0%" y2="0%">
+      			<stop offset="0%" style="stop-color:rgb(0,47,124);stop-opacity:1" />
+      			<stop offset="100%" style="stop-color:rgb(0,74,193);stop-opacity:1" />
+    		</linearGradient>
+  	</defs>
+
+	<!-- Create the background -->
+	<rect x="0" y="0" width="600" height="200" fill="url(#grad1)"/>
+	<rect x="0" y="200" width="600" height="200" fill="url(#grad2)"/>
+
+
+	<text fill="#ffffff" font-size="22" font-family="Verdana" x="50" y="30">
+	Counter Strike: Global Offensive Case Opener</text>
+	<text fill="#ffffff" font-size="16" font-family="Verdana" x="135" y="60">
+	AWP Dragon Lore OR P250 Sand Dune</text>
+
+	<!-- Black rect the loot boxes slide on -->
+	<rect x="0" y="150" width="600" height="100" fill="black"/>
+
+	<!-- Animated boxes that slide along the black rect -->
+	<rect x="0" y="160" width="80" height="80" style="fill:black;stroke:gray;stroke-width:5">
+     		<animate attributeName="x"
+     			from="0" 
+			to="-600" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</rect>
+	<text fill="#ffffff" font-size="12" font-family="Verdana" x="0" y="200">
+  	Dragon Lore
+		<animate attributeName="x"
+     			from="0" 
+			to="-600" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</text>
+
+	<rect x="100" y="160" width="80" height="80" style="fill:black;stroke:gray;stroke-width:5">
+     		<animate attributeName="x"
+     			from="100" 
+			to="-500" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</rect>
+	<text fill="#ffffff" font-size="12" font-family="Verdana" x="100" y="200">
+  	Sand Dune
+		<animate attributeName="x"
+     			from="100" 
+			to="-500" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</text>
+
+	<rect x="200" y="160" width="80" height="80" style="fill:black;stroke:gray;stroke-width:5">
+     		<animate attributeName="x"
+     			from="200" 
+			to="-400" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</rect>
+	<text fill="#ffffff" font-size="12" font-family="Verdana" x="200" y="200">
+  	Dragon Lore
+		<animate attributeName="x"
+     			from="203" 
+			to="-400" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</text>
+
+	<rect x="300" y="160" width="80" height="80" style="fill:black;stroke:gray;stroke-width:5">
+     		<animate attributeName="x"
+     			from="300" 
+			to="-300" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</rect>
+	<text fill="#ffffff" font-size="12" font-family="Verdana" x="300" y="200">
+  	Sand Dune
+		<animate attributeName="x"
+     			from="303" 
+			to="-300" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</text>
+
+	<rect x="400" y="160" width="80" height="80" style="fill:black;stroke:gray;stroke-width:5">
+     		<animate attributeName="x"
+     			from="400" 
+			to="-200" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</rect>
+	<text fill="#ffffff" font-size="12" font-family="Verdana" x="400" y="200">
+  	Dragon Lore
+		<animate attributeName="x"
+     			from="403" 
+			to="-200" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</text>
+
+	<rect x="500" y="160" width="80" height="80" style="fill:black;stroke:gray;stroke-width:5">
+     		<animate attributeName="x"
+     			from="500" 
+			to="-100" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</rect>
+	<text fill="#ffffff" font-size="12" font-family="Verdana" x="500" y="200">
+  	Sand Dune
+		<animate attributeName="x"
+     			from="503" 
+			to="-100" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</text>
+
+	<rect x="600" y="160" width="80" height="80" style="fill:black;stroke:gray;stroke-width:5">
+     		<animate attributeName="x"
+     			from="600" 
+			to="0" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</rect>
+	<text fill="#ffffff" font-size="12" font-family="Verdana" x="600" y="200">
+  	Dragon Lore
+		<animate attributeName="x"
+     			from="603" 
+			to="0" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</text>
+
+
+	<rect x="700" y="160" width="80" height="80" style="fill:black;stroke:gray;stroke-width:5">
+     		<animate attributeName="x"
+     			from="700" 
+			to="100" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</rect>
+	<text fill="#ffffff" font-size="12" font-family="Verdana" x="700" y="200">
+  	Dragon Lore
+		<animate attributeName="x"
+     			from="703" 
+			to="100" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</text>
+
+	<rect x="800" y="160" width="80" height="80" style="fill:black;stroke:gray;stroke-width:5">
+     		<animate attributeName="x"
+     			from="800" 
+			to="200" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</rect>
+	<text fill="#ffffff" font-size="12" font-family="Verdana" x="800" y="200">
+  	Sand Dune
+		<animate attributeName="x"
+     			from="803" 
+			to="200" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</text>
+
+	<rect x="900" y="160" width="80" height="80" style="fill:black;stroke:gray;stroke-width:5">
+     		<animate attributeName="x"
+     			from="900" 
+			to="300" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</rect>
+	<text fill="#ffffff" font-size="12" font-family="Verdana" x="900" y="200">
+  	Dragon Lore
+		<animate attributeName="x"
+     			from="903" 
+			to="300" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</text>
+
+	<rect x="1000" y="160" width="80" height="80" style="fill:black;stroke:gray;stroke-width:5">
+     		<animate attributeName="x"
+     			from="1000" 
+			to="400" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</rect>
+	<text fill="#ffffff" font-size="12" font-family="Verdana" x="1000" y="200">
+  	Sand Dune
+		<animate attributeName="x"
+     			from="1003" 
+			to="400" 
+			dur="7s"
+     			repeatCount="indefinite"/>
+	</text>
+
+	<!-- Red winner slider -->
+	<rect x="300" y="145" width="5" height="110" fill="red"/>
+</svg>
